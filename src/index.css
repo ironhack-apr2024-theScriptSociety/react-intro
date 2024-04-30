@@ -31,7 +31,12 @@ body {
 }
 
 h1 {
-  font-size: 1.5em;
+  font-size: 1.6em;
+  line-height: 1.1;
+}
+
+h2, h3, h4, h5, h6 {
+  font-size: 1.2em;
   line-height: 1.1;
 }
 
@@ -54,3 +59,7 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+.box {
+  border: 1px solid #fff;
+  border-radius: 1em;
+}
