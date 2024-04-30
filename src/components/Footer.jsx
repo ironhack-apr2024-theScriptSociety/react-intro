@@ -1,6 +1,12 @@
 
-function Footer(){
-    return <h1>This is the footer component</h1>
+function Footer(props){
+
+    return (
+        <footer>
+            <h5>This is the footer</h5>
+            {props.children}
+        </footer>
+    );
 }
 
 export default Footer;

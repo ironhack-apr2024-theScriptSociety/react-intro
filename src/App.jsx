@@ -20,7 +20,10 @@ function App() {
 
       <hr />
       <Examples />
-      <Footer />
+      
+      <Footer>
+        <p>The Script Society, 2024</p>
+      </Footer>
     </>
   )
 }
